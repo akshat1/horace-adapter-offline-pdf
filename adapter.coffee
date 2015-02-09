@@ -6,6 +6,7 @@ Winston     = require 'winston'
 Metadata    = require 'horace-metadata'
 Formats     = require 'horace-formats'
 PdfInfo     = require 'pdfinfojs'
+_           = require 'lodash'
 
 _Supported_Formats = [Formats.PDF]
 
@@ -20,7 +21,7 @@ logger = new Winston.Logger
 
 getHash = (str)->
   unless str
-    throw new Error 'Invalid arguments to _.getHash'
+    throw new Error 'Invalid arguments to getHash'
 
   for i in [0...str.length]
     ch = str.charCodeAt i
