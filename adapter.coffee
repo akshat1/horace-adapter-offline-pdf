@@ -9,6 +9,7 @@ PdfInfo     = require 'pdfinfojs'
 
 _Supported_Formats = [Formats.PDF]
 
+_logLevel = 'info'
 logger = new Winston.Logger
   transports: [
     new Winston.transports.Console({level: _logLevel}),

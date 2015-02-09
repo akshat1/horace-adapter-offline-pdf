@@ -2,7 +2,7 @@
   "name": "horace-adapter-offline-pdf",
   "description": "Offline PDF adapter for Horace books.",
   "author": "akshat1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "adapter.coffee",
   "bugs": {
