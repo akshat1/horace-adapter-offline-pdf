@@ -1,0 +1,30 @@
+{
+  "name": "horace-adapter-offline-pdf",
+  "description": "Offline PDF adapter for Horace books.",
+  "author": "akshat1",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "adapter.coffee",
+  "bugs": {
+    "url": "https://github.com/akshat1/horace-adapter-offline-pdf/issues",
+    "email": "akshat.sh@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshat1/horace-adapter-offline-pdf"
+  },
+  "dependencies": {
+    "horace-metadata": "0.0.1",
+    "lodash": "^2.4.1",
+    "nconf": "^0.7.1",
+    "pdfinfojs": "^0.3.5",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^2.0.0",
+    "run-sequence": "^1.0.2"
+  }
+}
