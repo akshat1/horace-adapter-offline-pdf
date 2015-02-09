@@ -34,7 +34,7 @@ getHash = (str)->
 getBook = (metadata, format, nback)->
   if format is Formats.PDF
     # Simple readstream
-    nback err, FS.createReadStream(metadata._localPath)
+    nback null, FS.createReadStream(metadata._localPath)
 
   else
     nback new Error "Adapter (#{_Adapter_Id}) does not support the requested format (#{format})."
