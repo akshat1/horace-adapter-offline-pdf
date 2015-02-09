@@ -80,13 +80,8 @@ getMetadata = (path, nback)->
 # Update the metadata contained within the pdf file with
 # the info in the supplied horace-metadata instance
 updateMetadata = (metadata, nback)->
-
-
-_.extend module.exports,
-  id             : _Adapter_Id
-  getBook        : getBook
-  getMetadata    : getMetadata
-  updateMetadata : updateMetadata
+  #TODO : Implement Me!!!
+  nback null, metadata
 
 _.extend module.exports,
   id               : _Adapter_Id
